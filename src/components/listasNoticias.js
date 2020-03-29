@@ -12,10 +12,10 @@ const ListaNoticias = ({ noticias }) => (
                         <Card.Img variant="top" src={noticia.urlToImage} />
                         <Card.Body>
                             <Card.Title>{noticia.title}</Card.Title>
-                            <Card.Text>
+                            <Card.Text className="cardText">
                                 {noticia.description}
                             </Card.Text>
-                            <Button variant="primary" href={noticia.url} target="_blank">Seguir Leyendo</Button>
+                            <Button className="bckButton" variant="outline-primary" href={noticia.url} target="_blank">Seguir Leyendo</Button>
                         </Card.Body>
                     </Card>
                 </div>

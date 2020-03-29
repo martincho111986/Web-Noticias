@@ -1,6 +1,7 @@
 import React from 'react';
 import { categorias, getApiUrl, paises } from './config';
 import ListaNoticias from './listasNoticias';
+// import Paises from './Paises';
 import Form from 'react-bootstrap/Form';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
@@ -107,6 +108,7 @@ class Noticias extends React.Component {
                                     {paises.map(pais => (
                                         <option value={pais}>{pais}</option>
                                     ))}
+                                
                                 </Form.Control>
                             </Form.Group>
                         </Form>
