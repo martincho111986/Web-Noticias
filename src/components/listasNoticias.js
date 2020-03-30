@@ -15,7 +15,6 @@ const ListaNoticias = ({ noticias }) => (
                             <Card.Text className="cardText">
                                 {noticia.description}
                             </Card.Text>
-                            
                         </Card.Body>
                         <Card.Footer>
                             <Button className="bckButton" variant="outline-primary" href={noticia.url} target="_blank">Seguir Leyendo</Button>
