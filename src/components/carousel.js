@@ -47,8 +47,6 @@ const Carousel = () => {
                             alt="pandemia" />
                             <img src={img13}
                             alt="pandemia" />
-
-
                     </div>
                 </div>
             </div>
