@@ -34,15 +34,13 @@ class Noticias extends React.Component {
     }
 
     fetchNoticia = () => {
-        console.log(getApiUrl(this.state.categoria))
         fetch(getApiUrl(this.state.categoria, this.state.paises))
             .then(response => {
                 return response.json();
             })
             .then(myJson => {
                 this.setState({ listaNoticias: myJson.articles })
-                console.log(myJson)
-                console.log(myJson.paises)
+               
             });
     }
 
