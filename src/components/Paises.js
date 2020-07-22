@@ -2,14 +2,9 @@ import React from 'react';
 
 const Paises = (pais) => {
     return (
-        
-                <>
-                <option value='Argentina'>{pais.ar}</option>
-                </>
-            
-        
-
-
+         <>
+            <option value='Argentina'>{pais.ar}</option>
+         </>
     );
 }
 
